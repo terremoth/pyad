@@ -1,0 +1,28 @@
+{
+  "name": "terremoth/pyad",
+  "description": "PHP Yet Another Dialog GUI",
+  "minimum-stability": "stable",
+  "type": "library",
+  "license": "GPL-3.0-or-later",
+  "keywords": [
+    "library",
+    "dialog",
+    "gui",
+    "ui",
+    "gtk",
+    "yad"
+  ],
+  "authors": [
+    {
+      "name": "terremoth"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Pyad\\": "src/"
+    }
+  }
+}
